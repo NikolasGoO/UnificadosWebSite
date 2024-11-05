@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/unificados-logo.PNG">
+
+    <script src="menu.js" defer></script>
+
+    <title>Unificados</title>
+</head>
+<body>
+    
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/unificados-logo.PNG" width="200" alt="Logo ADCN">
+                </a>
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#tempo">Tempo Restante</a></li>
+                    <li><a href="#quero-participar">Quero Participar</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#quero-participar">
+                    <button>Contato</button>
+                </a>
+            </div><!--btn-contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#tempo">Tempo Restante</a></li>
+                        <li><a href="#quero-participar">Quero Participar</a></li>
+                    </ul>
+                </nav>
+
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site" id="inicio">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site hidden">
+                        <h1 class="text-title"><span>CHOSEN</span> Generation</h1>
+                        <p>Você está pronto para a nova edição <span>Unificados</span>?</p>
+
+                        <div class="btn-contato">
+                            <a href="#quero-participar">
+                                <button>Quero Participar</button>
+                            </a>
+                        </div>
+                    </div><!--txt-topo-site-->
+
+                    <div class="img-topo-site hidden">
+                        <img src="images/Chosen-generation.png" alt="">
+                    </div><!--img-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section class="especiliadades" id="sobre">
+            <div class="interface">
+                <h2 class="titulo hidden">O que <span>terá?</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box hidden">
+                        <i class="bi bi-music-note-list"></i>
+                        <h3>Louvor</h3>
+                        <p>Muito Louvor e Adoração em um local onde nós podemos nos derramar ao criador.</p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box hidden">
+                        <i class="bi bi-mic"></i>
+                        <h3>Pregação</h3>
+                        <p>Pregadores da Palavra cheios da unção de Deus que vieram exclusivamente para falar com jovens e adolecentes.</p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box hidden">
+                        <i class="bi bi-book"></i>
+                        <h3>Aprendizado</h3>
+                        <p>Lá vamos entendender o porque chamamos essa geração de <span>Chosen</span> Generation.</p>
+                    </div><!--especialidades-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--especiliadades-->
+
+        <section class="portfolio" id="tempo">
+            <div class="interface">
+                <h2 class="titulo hidden">Tempo para se <span>Preparar !</span></h2>
+                <p id="demo" class="timer hidden" alt="timer"></p>
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+        <section class="formulario" id="quero-participar">
+            <div class="interface">
+                <h2 class="titulo"><span>Participe</span> em nossas<span> Redes.</span></h2>
+                <div class="btn-social-about-us">
+                    <a href="https://www.instagram.com/adocasadcn/"><button><i class="bi bi-instagram">Adocas</i></button></a>
+                    <a href="https://www.instagram.com/adcnjuca/"><button><i class="bi bi-instagram"></i>Juca</button></a>
+                </div><!--btn-social-->
+            </div><!--interface-->
+        </section><!--formulario-->
+
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/logo.png" width="50" alt="Logo ADCN">
+                        <img src="images/adocas-log.png" width="80" alt="Logo Adocas">
+                        <img src="images/juca-log.png" width="100" alt="Logo Juca">
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <p class="footer-text">Acompanhe também:</p>
+                        <a href="https://www.instagram.com/adcnsedecaldas/"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://www.youtube.com/@adcnmadureira"><button><i class="bi bi-youtube"></i></button></a>
+                        <a href="https://www.facebook.com/adcnsede"><button><i class="bi bi-facebook"></i></button></a>
+                    </div><!--btn-social-->
+                </div>
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-globe-americas"></i> <a href="https://nikolasgoo.github.io/My-WebSite/">Quer um site como este? Entre em contato.</a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Nov 23, 2024 17:00:00").getTime();
+        
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+        
+            // Get today's date and time
+            var now = new Date().getTime();
+        
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+        
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+            // Display the result in the element with id="demo"
+            document.getElementById("demo").innerHTML = 
+                days + "d " + hours + "h " + minutes + "m " +
+                "<span class='seconds'>" + seconds + "s</span>";
+        
+            // If the count down is finished, write some text
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
+    
+</body>
+</html>
